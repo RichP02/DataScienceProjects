@@ -11,7 +11,7 @@ vendidos = vendidos.drop(columns = 'Rank')
 vendidos.isnull().sum()
 vendidos[vendidos.isnull().any(axis=1)]
 vendidos['Year'] = vendidos['Year'].ffill()
-vendidos['Publisher'] = vendidos['Publisher'].bfill()
+vendidos = vendidos.dropna(subset=['Publisher'])
 
 ventas_por_genero = vendidos.groupby('Genre')['Global_Sales'].sum()
 
