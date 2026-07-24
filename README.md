@@ -13,7 +13,7 @@ Este repositorio reúne distintos programas y proyectos personales relacionados 
 Cada carpeta corresponde a un proyecto independiente:
 
 - `game_sales/` → Este estudio analiza las ventas de videojuegos mediante un proceso que abarca desde la limpieza de datos hasta la obtención de información clave.
-
+- `calibre_cable/` → Este programa en Python calcula el calibre óptimo del cable, el tamaño de la tierra y la dimensión de la tubería. A partir de datos como potencia, cos, tensión y distancia, realiza los cálculos considerando factores críticos como el agrupamiento y la temperatura.
 ---
 
 ## 🛠️ Tecnologías utilizadas
